@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thoughts Dairy</title>
+  <style scoped>
+    /* 自定义滚动条样式 */
+    ::-webkit-scrollbar {
+      width: 12px;
+      /* 滚动条宽度 */
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #E5E5E5;
+      /* 滚动条轨道背景，莫兰迪灰 */
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #A3A3A3;
+      /* 滚动条滑块背景，莫兰迪灰 */
+      border-radius: 5px;
+      /* 滚动条滑块圆角 */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #888888;
+      /* 滚动条滑块悬停背景，深灰 */
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- app 挂载节点 -->
+  <div id="app"></div>
+  <!-- 
+    renderer.ts
+    还记得我之前说了啥吗？renderer.ts 将会替代 vue 的 main.ts
+    -->
+  <script type="module" src="/src/renderer.ts"></script>
+</body>
+
+</html>

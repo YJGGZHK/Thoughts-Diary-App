@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/out/
+**/.webpack/
+**/.vite/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+**/logs/
+*.log
+
+# Editor directories
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# System files
+.DS_Store
+Thumbs.db
